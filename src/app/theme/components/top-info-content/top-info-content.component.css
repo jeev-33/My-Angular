@@ -1,0 +1,94 @@
+.info-content {
+  font-size: 14px;
+  max-height: 0px !important;
+  text-align: center;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.info-content .col {
+  opacity: 0;
+  transition: 1s;
+}
+.info-content .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.info-content .user-details h2, .info-content .user-details h3 {
+  font-weight: 400;
+}
+.info-content .user-details p {
+  font-size: 13px;
+}
+.info-content img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+.info-content.show {
+  max-height: 500px !important;
+  transition: max-height 0.2s ease-in;
+}
+.info-content.show .col {
+  opacity: 1;
+}
+.info-content.show img, .info-content.show .close-btn {
+  -webkit-animation: scale 0.6s ease-out;
+  -moz-animation: scale 0.6s ease-out;
+  animation: scale 0.6s ease-out;
+}
+.info-content.has-bg-image {
+  background-image: url("../../../../assets/img/app/header-bg.png");
+  background-blend-mode: overlay;
+  background-size: 300px;
+}
+.info-content .top-contact-form {
+  border-style: solid;
+  border-width: 0 1px;
+}
+.info-content .top-contact-form form {
+  max-width: 280px;
+  margin: 0 auto;
+}
+.info-content .controls {
+  width: 120px;
+  margin: 0 auto;
+}
+@-moz-keyframes scale {
+  5% {
+    -moz-transform: scale(0.5);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@-webkit-keyframes scale {
+  5% {
+    -webkit-transform: scale(0.5);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes scale {
+  5% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 960px) {
+  .info-content.has-bg-image {
+    background-size: 480px;
+  }
+}

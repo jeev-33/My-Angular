@@ -9,7 +9,7 @@ import { MailboxService } from './mailbox.service';
 @Component({
   selector: 'app-mailbox',
   templateUrl: './mailbox.component.html',
-  styleUrls: ['./mailbox.component.scss'],
+  styleUrls: ['./mailbox.component.css'],
   encapsulation: ViewEncapsulation.None,
   providers: [ MailboxService ]
 })

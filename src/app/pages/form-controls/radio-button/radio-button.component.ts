@@ -5,7 +5,7 @@ import { Settings } from '../../../app.settings.model';
 @Component({
   selector: 'app-radio-button',
   templateUrl: './radio-button.component.html',
-  styleUrls: ['./radio-button.component.scss']
+  styleUrls: ['./radio-button.component.css']
 })
 export class RadioButtonComponent {
   public settings: Settings;

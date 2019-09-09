@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'app-applications',
   templateUrl: './applications.component.html',
-  styleUrls: ['./applications.component.scss'],
+  styleUrls: ['./applications.component.css'],
   encapsulation: ViewEncapsulation.None
 })
 export class ApplicationsComponent implements OnInit {

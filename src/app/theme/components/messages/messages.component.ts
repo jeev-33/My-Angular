@@ -5,7 +5,7 @@ import { MessagesService } from './messages.service';
 @Component({
   selector: 'app-messages',
   templateUrl: './messages.component.html',
-  styleUrls: ['./messages.component.scss'],
+  styleUrls: ['./messages.component.css'],
   encapsulation: ViewEncapsulation.None,
   providers: [ MessagesService ]
 })

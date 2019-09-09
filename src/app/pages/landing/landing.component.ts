@@ -7,7 +7,7 @@ import { LandingService } from './landing.service';
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
-  styleUrls: ['./landing.component.scss'],
+  styleUrls: ['./landing.component.css'],
   encapsulation: ViewEncapsulation.None 
 })
 export class LandingComponent {

@@ -6,7 +6,7 @@ import { MenuService } from '../menu.service';
 @Component({
   selector: 'app-vertical-menu',
   templateUrl: './vertical-menu.component.html',
-  styleUrls: ['./vertical-menu.component.scss'],
+  styleUrls: ['./vertical-menu.component.css'],
   encapsulation: ViewEncapsulation.None,
   providers: [ MenuService ]
 })

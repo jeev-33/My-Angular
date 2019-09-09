@@ -27,7 +27,7 @@ const colors: any = {
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.component.html',
-  styleUrls: ['./schedule.component.scss'],
+  styleUrls: ['./schedule.component.css'],
   animations: [ blockTransition ],
   encapsulation: ViewEncapsulation.None,
   host: {

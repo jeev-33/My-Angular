@@ -1,16 +1,16 @@
 <div id="main" perfectScrollbar (psScrollY)="onPsScrollY($event)" class="h-100">
 
     <header class="header" [class.over]="showInfoContent">
-        <app-top-info-content [showInfoContent]="showInfoContent" (onCloseInfoContent)="closeInfoContent(showInfoContent)"></app-top-info-content>
+        <!--<app-top-info-content [showInfoContent]="showInfoContent" (onCloseInfoContent)="closeInfoContent(showInfoContent)"></app-top-info-content>-->
         
         <mat-toolbar class="top-toolbar" [class.mat-elevation-z2]="settings.fixedHeader">
-            <div fxLayout="row" fxLayoutAlign="space-between center" fxFlex>           
-                <div fxLayout="row" fxLayoutAlign="center center">               
+            <div fxLayout="row" fxLayoutAlign="space-between center" fxFlex>            
+                <!--<div fxLayout="row" fxLayoutAlign="center center">               
                     <a routerLink="/" fxLayout="row" fxLayoutAlign="start center" class="logo" ngClass.xs="mobile" (click)="closeSubMenus()">
                         <img src="assets/img/logo.png" alt="logo" [@rotate]="showSidenav">
                         <span class="mx-2">MY ANGULAR</span> 
                     </a>
-                </div> 
+                </div>-->
                 <div fxLayout="row" fxLayoutAlign="start center" class="w-100"> 
                     <button *ngIf="settings.menu == 'vertical'" mat-icon-button (click)="sidenav.toggle()">
                         <mat-icon>menu</mat-icon>

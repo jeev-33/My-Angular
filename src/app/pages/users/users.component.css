@@ -1,0 +1,95 @@
+.users-wrapper {
+  position: relative;
+  min-height: 150px;
+}
+.user-toolbar {
+  background: transparent !important;
+  height: 40px;
+  margin-top: -40px;
+}
+.user-details {
+  position: relative;
+}
+.user-details .user-name {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.user-content .more-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.user-content .user-img {
+  position: relative;
+  text-align: center;
+}
+.user-content .user-img .social-icons a {
+  color: #fff;
+}
+.user-content .user-img img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.user-content .user-img img.blocked {
+  opacity: 0.5;
+}
+.user-content .user-img .mat-icon.block-icon {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  font-size: 96px;
+  height: 96px;
+  width: 96px;
+}
+.user-content .info-list {
+  position: relative;
+}
+.user-content .info-list span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 8px;
+}
+.user-content .info-list p {
+  padding: 2px 0;
+}
+.user-content .info-list p:first-child {
+  padding-top: 8px;
+}
+.user-content .info-list p:last-child {
+  padding-bottom: 8px;
+}
+.user-content .info-list.blocked {
+  opacity: 0.5;
+}
+.user-search {
+  width: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.user-search .mat-form-field {
+  width: 100% !important;
+  text-align: center !important;
+  height: 36px;
+}
+.user-search .mat-form-field-infix {
+  padding: 5px;
+  width: 100px;
+}
+.user-search .mat-input-element {
+  text-align: center;
+}
+.user-search.show {
+  width: 100%;
+  overflow: visible;
+}
+.user-spinner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

@@ -10,7 +10,7 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss",
+          "styleext": "css",
           "spec": false
         },
         "@schematics/angular:class": {
@@ -50,7 +50,7 @@
               "node_modules/@swimlane/ngx-datatable/release/assets/icons.css",
               "node_modules/angular-calendar/css/angular-calendar.css",
               // "node_modules/dragula/dist/dragula.min.css",
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -99,7 +99,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.scss"
+              "styles.css"
             ],
             "scripts": [],
             "assets": [

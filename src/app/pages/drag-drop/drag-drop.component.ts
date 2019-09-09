@@ -5,7 +5,7 @@ import { Settings } from '../../app.settings.model';
 @Component({
   selector: 'app-drag-drop',
   templateUrl: './drag-drop.component.html',
-  styleUrls: ['./drag-drop.component.scss']
+  styleUrls: ['./drag-drop.component.css']
 })
 export class DragDropComponent {
   public icons = [ "home", "person", "alarm", "work", "mail", "favorite"];

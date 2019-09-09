@@ -5,7 +5,7 @@ import { Settings } from '../../../app.settings.model';
 @Component({
   selector: 'app-flags-menu',
   templateUrl: './flags-menu.component.html',
-  styleUrls: ['./flags-menu.component.scss'],
+  styleUrls: ['./flags-menu.component.css'],
   encapsulation: ViewEncapsulation.None
 })
 export class FlagsMenuComponent implements OnInit {

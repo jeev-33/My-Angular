@@ -1,0 +1,95 @@
+.chat-container {
+  height: calc(100vh - (56px + 56px + 148px));
+}
+.chat-toolbar {
+  background: transparent !important;
+  height: 40px;
+  margin-top: -40px;
+}
+.chat-toolbar .author-img {
+  width: 34px;
+  height: 34px;
+}
+.chat-toolbar .author-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+.chat {
+  border-radius: 0;
+}
+.chat .chat-actions {
+  padding: 12px;
+}
+.chat .talk-item {
+  padding: 6px 0;
+  height: 100%;
+}
+.chat .message {
+  white-space: unset;
+  text-overflow: unset;
+}
+.chat .message span {
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+}
+.chat .message-date {
+  opacity: 0.8;
+}
+.chat .empty mat-icon {
+  font-size: 220px;
+  height: 220px;
+  width: 220px;
+  opacity: 0.4;
+}
+.chat .empty p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+.chat-status-icon {
+  font-size: 14px;
+  height: 14px;
+  width: 14px;
+  line-height: 22px;
+  margin-right: 6px;
+}
+.author-status {
+  font-size: 13px;
+}
+.chat-sidenav {
+  border-right: 1px solid transparent;
+  overflow: hidden;
+}
+.chat-content {
+  padding: 12px;
+  height: calc(100vh - (56px + 56px + 174px));
+}
+.chat-content.actions-visible {
+  height: calc(100vh - (56px + 56px + 254px));
+}
+.chat-sidenav-list {
+  height: 100%;
+}
+.person-info-sidenav {
+  width: 280px;
+}
+.person-info-sidenav h2 {
+  font-weight: 400;
+}
+.person-info-sidenav img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+@media (max-width: 960px) {
+  .chat-container {
+    height: calc(100vh - (56px + 56px + 130px));
+  }
+  .chat-content {
+    height: calc(100vh - (56px + 56px + 154px));
+  }
+  .chat-content.actions-visible {
+    height: calc(100vh - (56px + 56px + 236px));
+  }
+}

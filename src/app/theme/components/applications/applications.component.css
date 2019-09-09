@@ -1,0 +1,23 @@
+.applications {
+  width: 260px;
+}
+.applications .mat-card {
+  padding: 0;
+}
+.applications .mat-card .mat-button {
+  height: 100%;
+  line-height: 1.7;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 0;
+}
+.applications .mat-card .mat-button .mat-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.applications .mat-card .mat-button .mat-button-wrapper .mat-icon {
+  padding: 8px;
+  color: #fff;
+  border-radius: 4px;
+}

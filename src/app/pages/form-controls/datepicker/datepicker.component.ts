@@ -6,7 +6,7 @@ import { Settings } from '../../../app.settings.model';
 @Component({
   selector: 'app-datepicker',
   templateUrl: './datepicker.component.html',
-  styleUrls: ['./datepicker.component.scss']
+  styleUrls: ['./datepicker.component.css']
 })
 export class DatepickerComponent {  
   public settings: Settings;

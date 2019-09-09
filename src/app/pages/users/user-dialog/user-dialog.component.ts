@@ -6,7 +6,7 @@ import { User, UserProfile, UserWork, UserContacts, UserSocial, UserSettings } f
 @Component({
   selector: 'app-user-dialog',
   templateUrl: './user-dialog.component.html',
-  styleUrls: ['./user-dialog.component.scss']
+  styleUrls: ['./user-dialog.component.css']
 })
 export class UserDialogComponent implements OnInit {
   public form:FormGroup;

@@ -5,7 +5,7 @@ import { emailValidator } from '../../utils/app-validators';
 @Component({
   selector: 'app-top-info-content',
   templateUrl: './top-info-content.component.html',
-  styleUrls: ['./top-info-content.component.scss']
+  styleUrls: ['./top-info-content.component.css']
 })
 export class TopInfoContentComponent implements OnInit {
   @Input('showInfoContent') showInfoContent:boolean = false;

@@ -9,7 +9,7 @@ const COMMA = 188;
 @Component({
   selector: 'app-chips',
   templateUrl: './chips.component.html',
-  styleUrls: ['./chips.component.scss']
+  styleUrls: ['./chips.component.css']
 })
 export class ChipsComponent {
   visible: boolean = true;

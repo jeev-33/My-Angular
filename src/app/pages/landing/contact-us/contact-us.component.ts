@@ -5,7 +5,7 @@ import { emailValidator } from '../../../theme/utils/app-validators';
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
-  styleUrls: ['./contact-us.component.scss']
+  styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent implements OnInit {
   public lat: number = 40.678178;

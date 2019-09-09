@@ -6,7 +6,7 @@ import { orders, products, customers, refunds } from '../dashboard.data';
 @Component({
   selector: 'app-info-cards',
   templateUrl: './info-cards.component.html',
-  styleUrls: ['./info-cards.component.scss']
+  styleUrls: ['./info-cards.component.css']
 })
 export class InfoCardsComponent implements OnInit { 
   public orders: any[];

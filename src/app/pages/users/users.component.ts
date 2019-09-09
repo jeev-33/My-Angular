@@ -9,7 +9,7 @@ import { UserDialogComponent } from './user-dialog/user-dialog.component';
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
-  styleUrls: ['./users.component.scss'],
+  styleUrls: ['./users.component.css'],
   encapsulation: ViewEncapsulation.None,
   providers: [ UsersService ]  
 })

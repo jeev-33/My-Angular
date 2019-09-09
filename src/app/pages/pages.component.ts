@@ -9,7 +9,7 @@ import { MenuService } from '../theme/components/menu/menu.service';
 @Component({
   selector: 'app-pages',
   templateUrl: './pages.component.html',
-  styleUrls: ['./pages.component.scss'],
+  styleUrls: ['./pages.component.css'],
   animations: [ rotate ],
   providers: [ MenuService ]
 })

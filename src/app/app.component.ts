@@ -5,7 +5,7 @@ import { Settings } from './app.settings.model';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   public settings: Settings;

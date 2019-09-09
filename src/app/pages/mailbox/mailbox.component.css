@@ -1,0 +1,89 @@
+.mailbox-toolbar {
+  background: transparent !important;
+  height: 40px;
+  margin-top: -40px;
+}
+.mailbox-toolbar .mail-search {
+  width: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.mailbox-toolbar .mail-search .mat-form-field {
+  width: 100% !important;
+  text-align: center !important;
+  height: 36px;
+}
+.mailbox-toolbar .mail-search .mat-form-field-infix {
+  padding: 5px;
+  width: 50px;
+}
+.mailbox-toolbar .mail-search .mat-input-element {
+  text-align: center;
+}
+.mailbox-toolbar .mail-search.show {
+  width: 100%;
+  overflow: visible;
+}
+.mailbox-toolbar .compose {
+  line-height: 30px;
+  box-shadow: none;
+}
+.mailbox-container {
+  height: calc(100vh - (56px + 56px + 148px));
+}
+.mailbox {
+  border-radius: 0;
+}
+.mailbox .mail-body {
+  padding: 16px;
+}
+.mailbox .empty mat-icon {
+  font-size: 220px;
+  height: 220px;
+  width: 220px;
+  opacity: 0.4;
+}
+.mailbox .empty p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+.mailbox-sidenav {
+  width: 350px;
+  border-right: 1px solid transparent;
+  overflow: hidden;
+}
+.mailbox-content {
+  height: calc(100vh - (56px + 56px + 148px));
+}
+.mailbox-content .mat-list .mat-list-item .mat-line {
+  white-space: unset;
+}
+.mailbox-content .subject {
+  font-weight: 500;
+}
+.mailbox-sidenav-list {
+  height: 100%;
+}
+.mailbox-sidenav-list .sender {
+  font-weight: 400;
+}
+.mailbox-sidenav-list .subject {
+  font-size: 13px;
+}
+.mailbox-sidenav-list .unread .mat-line, .mailbox-sidenav-list .unread .sender {
+  font-weight: bold;
+}
+.mailbox-sidenav-list .selected {
+  background: rgba(0, 0, 0, .15);
+}
+@media (max-width: 575px) {
+  .mailbox-sidenav {
+    width: 280px;
+  }
+}
+@media (max-width: 960px) {
+  .mailbox-container, .mailbox-content {
+    height: calc(100vh - (56px + 56px + 130px));
+  }
+}

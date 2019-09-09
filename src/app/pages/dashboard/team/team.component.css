@@ -1,0 +1,11 @@
+.team-member img {
+  width: 89px;
+  border-radius: 2px;
+}
+.team-member h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.team-member p {
+  text-transform: uppercase;
+}

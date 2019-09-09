@@ -1,0 +1,102 @@
+.landing-container {
+  padding-top: 56px;
+}
+.landing-container .landing-toolbar {
+  position: fixed;
+  top: 0;
+  height: 56px;
+}
+.landing-container .landing-toolbar button {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.landing-container .landing-toolbar .logo {
+  min-width: 160px !important;
+}
+.landing-container .landing-sidenav {
+  width: 200px;
+}
+.landing-container .landing-sidenav button {
+  text-transform: capitalize;
+}
+.landing-container .title-section {
+  font-size: 16px;
+  text-align: center;
+}
+.landing-container .block-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.landing-container .client-item {
+  height: 80px;
+  text-align: center;
+}
+.landing-container .client-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.landing-container .testimonial-item {
+  margin-top: 50px;
+  text-align: center;
+  overflow: visible;
+}
+.landing-container .testimonial-item .text {
+  font-style: italic;
+}
+.landing-container .testimonial-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -76px;
+}
+.landing-container #pricing {
+  min-height: 10px;
+}
+.landing-container .pricing-tabs.mat-tab-group .mat-tab-header {
+  width: 320px;
+  margin: 0 auto;
+  border-bottom: none !important;
+  margin-bottom: 16px;
+}
+.landing-container .pricing-card.mat-card {
+  padding: 0;
+  overflow: hidden;
+}
+.landing-container .pricing-card.mat-card .pricing-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.landing-container .pricing-card.mat-card .pricing-header {
+  min-height: 126px;
+}
+.landing-container .pricing-card.mat-card .pricing-header p.desc, .landing-container .pricing-card.mat-card .pricing-header small {
+  font-weight: 300;
+}
+.landing-container .pricing-card.mat-card .del {
+  text-decoration: line-through;
+}
+.landing-container .landing-footer {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.arrow-btn.mat-mini-fab {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.arrow-btn.mat-mini-fab.prev {
+  left: 12px;
+}
+.arrow-btn.mat-mini-fab.next {
+  right: 12px;
+}
+.arrow-btn.mat-mini-fab.hidden {
+  display: none !important;
+}
+@media screen and (max-width: 599px) {
+  .pricing-tabs.mat-tab-group .mat-tab-header {
+    width: 210px;
+  }
+}

@@ -5,7 +5,7 @@ import { Settings } from '../../../app.settings.model';
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
-  styleUrls: ['./slider.component.scss']
+  styleUrls: ['./slider.component.css']
 })
 export class SliderComponent {
   public settings: Settings;
